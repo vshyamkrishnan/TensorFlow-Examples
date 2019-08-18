@@ -20,6 +20,6 @@ hello = tf.constant('Hello, TensorFlow!')
 
 # Start tf session
 sess = tf.Session()
-
+print('\n')
 # Run the op
 print(sess.run(hello))
